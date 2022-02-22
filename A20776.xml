@@ -1,0 +1,581 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The catechisers holy encouragement to the profitable exercise of catechising in the Church of England</title>
+            <author>Downing, Thomas.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1623</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 54 KB of XML-encoded text transcribed from 17 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A20776</idno>
+            <idno type="STC">STC 7158.5</idno>
+            <idno type="STC">ESTC S4617</idno>
+            <idno type="EEBO-CITATION">23660495</idno>
+            <idno type="OCLC">ocm 23660495</idno>
+            <idno type="VID">26779</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A20776)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 26779)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1831:24)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The catechisers holy encouragement to the profitable exercise of catechising in the Church of England</title>
+                  <author>Downing, Thomas.</author>
+               </titleStmt>
+               <extent>[4], 28 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by VV.I. dwelling in Red-crosse-street,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1623.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Dedication signed: Tho. Downing.</note>
+                  <note>Signatures: [pi]⁴ A-C⁴ D².</note>
+                  <note>Error in paging: p. 25 misnumbered 24.</note>
+                  <note>Reproduction of original in the Union Theological Seminary (New York, N.Y). Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Church of England --  Catechisms --  English.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-09</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2014-02</date>
+            <label>Colm MacCrossan</label>Sampled and proofread</change>
+         <change>
+            <date>2014-02</date>
+            <label>Colm MacCrossan</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:26779:1"/>
+            <pb facs="tcp:26779:1" rendition="simple:additions"/>
+            <p>THE CATECHISERS HOLY ENCOVRAGEMENT, To the profitable exerciſe of Cate<g ref="char:EOLhyphen"/>chiſing in the Church of England.</p>
+            <q>
+               <bibl>
+                  <hi>Pſal. 19.7.</hi>
+               </bibl> The Law of the Lord is perfect, conuerting the Soule: The Teſtimony of the Lord is ſure, and giueth wiſedome to the ſimple.</q>
+            <q>
+               <bibl>
+                  <hi>Luk. 2.46.</hi>
+               </bibl> And it came to paſſe three daies after, that they found him in the Temple, ſitting in the mideſt of the Doctors, both hearing them, and asking them queſtions.</q>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>VV. I.</hi> dwelling in Red-croſſe. ſtreet. 1623.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:26779:2"/>
+            <pb facs="tcp:26779:2"/>
+            <head>To the true Catechiſers of his Church, the true grace mercy and peace of the true God, be true encouragement.</head>
+            <p>
+               <seg rend="decorInit">I</seg>F I ſhould accuſe you for writing your many Catechiſmes, I ſhould rather diſcourage yours from reading them, then excuſe my ſelfe for pen<g ref="char:EOLhyphen"/>ning theſe encouragements for vs all to Catechi<g ref="char:EOLhyphen"/>ſing. Yet (let it be ſpoken with all humility) if you in the crowd of Catechiſers each one find an excuſe for all the company; I hope (if it be not preſumption) you all will hold me excuſed, for theſe ſmall encouragements for you all, being but one; If you obſerued, the two Texts of Scrip<g ref="char:EOLhyphen"/>ture on the otherſide of the former leafe, you may eaſely perceiue, theſe things were one day Preached as Sermons of encourage<g ref="char:EOLhyphen"/>ment, in the Eares of Parents, Gouernours, and old men, in the Congregation; if you will ſee the leaues that follow hereafter, you may vnderſtand they were Catechiſing waies in the Hands of little ones in writing, for their encouragement, another day; I ſhould then be very ſorry, that what day ſoeuer they ſhalbe ſeene by your Eyes, you will ſee the motes that are in your brothers eyes, that labour to ſhew you, though vnworthily the encouragements that they haue ſeene: but I hope you will ioyne your Hearts in prayer, that God by all meanes, whether great or ſmall, will harten vs all in this ho<g ref="char:EOLhyphen"/>ly exerciſe. And ſo</p>
+            <closer>
+               <signed>right humbly I reſt your poore Bro<g ref="char:EOLhyphen"/>ther in the Lord. THO. DOWNING.</signed>
+               <dateline>Aldermanbery London.</dateline>
+            </closer>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:26779:3"/>
+            <head>To the Right Honourable, Right Worſhipfull, and all my ſouing and worthy Pariſhioners of S. <hi>Mary Aldermanberry</hi> London, the multiplication of all ſpirituall grace, and <hi>aſſurance of Celeſtiall glory through Chriſt</hi> leſus our Lord.</head>
+            <p>RIght Hononarable: Right Worſhipfull, and my beſt be<g ref="char:EOLhyphen"/>loued in him that loues you beſt and hath paid for his loue deereſt. In the hearing of the moſt of you (according to the godly commaund of lawfull authoritie knowne vnto you all) I haue lately entred vpon that moſt commendable and moſt profitable courſe of Catechiſing: and to the end that I might the more cher<g ref="char:EOLhyphen"/>iſh you, and bolden yours, I tooke courage to my ſelfe by God, be<g ref="char:EOLhyphen"/>fore I began the worke it ſelfe, to ſay ſomething as a ſhort begin<g ref="char:EOLhyphen"/>ning and introduction to my future endeauours by Gods permiſ<g ref="char:EOLhyphen"/>ſion: For your ſelues by way of Sermon and continuall diſcourſe, as the foode of the ſtrong, for your children and ſeruants, by ta<g ref="char:EOLhyphen"/>king of the ſame into peeces, for the ſmalleſt and weakeſt diſgeſti<g ref="char:EOLhyphen"/>ons, by way of queſtions, for all (I hope) as members of the ſame body, a fit receipt and preperation, eſpecially it being the deſire of of ſome of you to haue theſe publiſhed for the benefit of children, as crummes in common, I know whit-meates are wholeſome for you that are growne great ones, but yet I preſume it will not be troubleſome to you to taſte of the milke, both before, and after your ſmall children. I ſhalbe refreſhed before the Lord for the time preſent, as well as any fare can make me, if you like the Lord that maketh both the body and the bread, will accept of theſe poore pee<g ref="char:EOLhyphen"/>ces I haue to preſent you; and for the time to come, your gather<g ref="char:EOLhyphen"/>ing of ſuch fruite as is growne ſhalbe full payment for the paſt ſea<g ref="char:EOLhyphen"/>ſon: God that onely muſt giue encreaſe (euen to <hi>Pauls</hi> planting) grant vnto your information, and my conſolation, his heauenly bleſſing, through Ieſus Chriſt, to whom be all honour and glory.</p>
+            <closer>
+               <signed>Your affectionate Paſtor, THO. DOWNING.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="catechism">
+            <pb n="1" facs="tcp:26779:3"/>
+            <head>THE CATECHISERS HOLY INCOVRAGE<g ref="char:EOLhyphen"/>MENTS TO THE PROFITABLE EXERCISE OF CATECHISING IN THE CHVRCH OF ENGLAND.</head>
+            <p>Queſtion.</p>
+            <p>
+               <hi>WHat way might a Miniſter winne the wills, and ſharpen the wits of Chriſtians to be Catechiſed.</hi>
+            </p>
+            <p>
+               <hi>Anſwere.</hi>
+            </p>
+            <p>By encouraging them vnto the ſame out of Gods holy word, as <hi>Solomon</hi> by his parables giues <hi>to the ſimple ſharpneſſe of wit.</hi>
+               <note place="margin">Pro. 1.4.</note>
+            </p>
+            <p>Queſt. <hi>How many motiues be there to this godly worke of Catechiſing?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> Many, but for memory ſake they general<g ref="char:EOLhyphen"/>ly be deuided into three: 1. the Matter of Cate<g ref="char:EOLhyphen"/>chiſing. 2. the Manner of Catechiſme. 3. the Meanes we haue of Catechiſing.</p>
+            <p>Queſt. <hi>For the Matter, firſt tell me what the word Catechiſme is in ſignification?</hi>
+            </p>
+            <pb n="2" facs="tcp:26779:4"/>
+            <p>
+               <hi>Anſ.</hi> Catechiſme is a word that is drawne from the greeke word <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> 
+               <hi>Catecho,</hi> which ſig<g ref="char:EOLhyphen"/>nifieth to eccho, or ſound out, and ſo it is true, In<g ref="char:EOLhyphen"/>ſtructions and anſwers are ſounds from heauen, and ecchoes from earth,
+<note place="margin">1. Cor. 14.19</note> therefore Saint <hi>Paul</hi> vſeth the word to teach the rudiments of Religion ſay<g ref="char:EOLhyphen"/>ing,
+<note place="margin">
+                  <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> 
+               <hi>I had rather ſpeake fiue</hi> (that is a few) <hi>wordes with mine vnderſtanding that I might (Catechiſe o<g ref="char:EOLhyphen"/>thers) in the Church, then ten thouſand wordes in a ſtrange tongue?</hi>
+            </p>
+            <p>Queſt. <hi>Who be thoſe</hi> (others) <hi>the holy Apoſtle ſpeakes of.</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> Whoſoeuer are capeable but yet are voide of the elements of the Chriſtian faith.</p>
+            <p>Queſt. <hi>But is it not preſumption at leaſt if not fol<g ref="char:EOLhyphen"/>ly, for ſmall children to meddle with great matters of Religion.</hi>
+               <note place="margin">1. Cor. 13.11</note> Paul <hi>confeſſeth,</hi> When he was a child, he ſpake as a childe, he vnderſtood as a childe, he thought as a childe, and before he became a man, he put not away childiſh things: <hi>how then ſhould ſmattering children be fit for profound and holy mat<g ref="char:EOLhyphen"/>ters?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> It is meete for vs that are Children for all that, to read, to ſtudy, to meditate, and to conferre touching grounds of Religion.</p>
+            <p>Queſt. <hi>What reaſon can be ſhowne for that?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> A double reaſon: Firſt from our owne profit. Secondly from Gods law.</p>
+            <p>Queſt. <hi>What profit will it be to you?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> That appeares from the knowledge of God, without which vaine is euery child of man, but knowledge of God bringeth righteouſnes in
+<pb n="3" facs="tcp:26779:4"/>this world, and in the world to come eternall life, as Ieſus ſaith,
+<note place="margin">Iohn. 17.3.</note> 
+               <hi>This is life eternall to know thee to be the onely very God, and whom thou haſt ſent Ieſus Chriſt.</hi> But as a candle through a window, ſo a glimpſe of the Godhead may be diſcerned through the Cranies of our childhood.</p>
+            <p>Queſt. <hi>Profitable though it be, yet what warrant haue you to tell me for it?</hi>
+            </p>
+            <p>
+               <hi>Anſ. Dauid</hi> the holy father may be a patterne to all our parents, and he tells vs and them in the 19. Pſal. 7.
+<note place="margin">Pſal. 19.7.</note> 
+               <hi>The Law of the Lord giueth wiſedom to the ſimple,</hi> therefore we ought to receiue it when it is offered, and <hi>Salomon</hi> his wiſe ſonne, that may be a teacher of all the children of men,
+<note place="margin">Pro. 1.4.</note> 
+               <hi>To giue to the ſimple ſharpnes of wit, and to the child knowledge and diſcretion,</hi> he wrote his parables, ſo that we are <hi>Salomons</hi> table bookes as well as others.</p>
+            <p>Queſt. <hi>But is not that to be vnderſtood of little ones of ſoule, rather then of body and age, of children in grace rather then in growth?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> Not rather, but indifferently to both, for the Lord of heauen requireth,
+<note place="margin">Pſal. 148.12</note> 
+               <hi>That young men and maidens, old men and children ſhould praiſe the name of the Lord on earth.</hi> But they cannot doe that till this, not acknowledge his praiſe till they know his perſon and properitie.</p>
+            <p>Queſt. <hi>But what then? grant it that children are docible, are their poore ſoules ere the ſafer for ſome knowledge without practiſe? What good would the light of the ſunne doe a man and take away the heate. Wherefore holy</hi> Dauid <hi>ſaith that a good vnderſtanding haue all they</hi> that do thereafter,
+<note place="margin">Pſal. 111.10.</note> 
+               <hi>and Saint</hi> Iames <hi>bids
+<pb n="4" facs="tcp:26779:5"/>vs not be</hi> hearers of the word onely deceiuing our ſelues,
+<note place="margin">Iam. 1.21.22</note> but doers alſo: &amp;c. <hi>But tender children doe rather minde childiſh folly and play, then regard to prac<g ref="char:EOLhyphen"/>tiſe that they heare,</hi>
+               <note place="margin">Pro. 22.15.</note> 
+               <hi>heare</hi> Salomon, Fooliſhnes is bound in the heart of a childe?</p>
+            <p>
+               <hi>Anſ.</hi> We muſt confeſſe our ſelues guilty of all but yet not without ſomthing to ſay for our ſelues, and ſomething that wiſe <hi>Solomon</hi> himſelfe will ſay for vs, and ſo we hope though one ſhould breake, the other will hold, we haue a double anſwere.</p>
+            <p>Queſt. <hi>Which is the firſt?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> Firſt for profit, if we learne ſomething, and practiſe nothing, or but little.</p>
+            <p>Queſt. <hi>What profit would that be?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> There is a double commodity, firſt a pro<g ref="char:EOLhyphen"/>fit pertaining to the way vnto the end, ſecondly, a commodity in the end of the way.</p>
+            <p>Queſt. <hi>What commodity haue you in the way?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> Information of our ſlender vnderſtan<g ref="char:EOLhyphen"/>dings, touching things to be knowne in the way to our future life, and not to be knowne to be be<g ref="char:EOLhyphen"/>leeued, and not to be beleeued, to be done or to be ſhunned, to be feared, or to be hoped.</p>
+            <p>Queſt. <hi>What is your commodity in the end of the way?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> The end of inſtruction is incomparable not onely grace in this ſhort life but glory in life eternall.</p>
+            <p>Queſt. <hi>Why attaine this great incouragement?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> Not learners, but liuers, not hearers, but fearers, yet we that are poore children, if we haue not this rich profit preſently, we learne the right
+<pb n="5" facs="tcp:26779:5"/>way by Gods word to it, and this is a great part of profit, for as learning without liuing is vnprofi<g ref="char:EOLhyphen"/>table, ſo liuing without learning is vnpoſſible.</p>
+            <p>Queſt. <hi>But you ſay that wiſe</hi> Solomon <hi>hath ſome<g ref="char:EOLhyphen"/>thing more to ſay for you, tell me what it is?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> He giueth vs not only ſharpe but ſweete, he calles vs fooles in the bondes of childhood,
+<note place="margin">Pro. 22.15.</note> but yet be makes vs amends (though we fooles doe not thinke ſo) <hi>the rod of corection chaſeth it away.</hi>
+            </p>
+            <p>Queſt. <hi>But may not you attaine this without know<g ref="char:EOLhyphen"/>ledge, as well as many ſimple and illiturat men doe. Wiſdome ſaith</hi> Apply thy heart vnto me,
+<note place="margin">Wiſd. 1.</note> and thinke of God with humility. <hi>(Not ſpeake miſtically of him) but thinke and ſeeke him in ſimplicity of thine heart, but a childe may doe this as well as many lay men doe.</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> Our anſwere to this is from euery fingers end to the contrary, from the right hand to the left: 5. to 5.</p>
+            <p>
+               <hi>The fiue fingers:</hi>
+               <list>
+                  <item>1. Neceſſity of knowledge.</item>
+                  <item>2. Tradition of Teachers.</item>
+                  <item>3. Text of Scriptures taught.</item>
+                  <item>4. Tuition of the Truth.</item>
+                  <item>5. Incouragement to all.</item>
+               </list>
+            </p>
+            <p>Queſt. <hi>What neceſsity is there?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> It is neceſſity that we ſhould haue this knowledge of eternall life, either by our owne ſtu<g ref="char:EOLhyphen"/>dies or by others, either implicity or explicity, e<g ref="char:EOLhyphen"/>ther by report or knowledge, and this is neceſſary for lay men as little children.</p>
+            <p>Queſt. <hi>What is that ſecond finger of Tradition?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> It is no doubt better to haue the docu<g ref="char:EOLhyphen"/>ments, and leſſons of Religion by our owne labour
+<pb n="6" facs="tcp:26779:6"/>then by tradition, yet firſt we muſt haue them by Traditions of our teachers.</p>
+            <p>Queſt. <hi>What was the third anſwere?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> Thirdly we anſwere to the text alledged by Text of Scripture. Though God will accept of none without ſimplicity of heart, yet the Lord requireth more, as the Apoſtle ſaith, <hi>With the heart man beleeueth vnto righteouſnes, but with the mouth confeſsion is made vnto ſaluation.</hi>
+               <note place="margin">Iam. 1.</note> So Saint <hi>Iames, that faith without workes is dead.</hi> They deceiue them<g ref="char:EOLhyphen"/>ſelues therefore that truſt to ſimple harts, without vnderſtanding in matters of Religion.</p>
+            <p>Queſt. <hi>What is the fourth anſwere?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> Reaſon not to regard our owne profit a<g ref="char:EOLhyphen"/>lone, but the tuition of the Goſpell, and the de<g ref="char:EOLhyphen"/>fence of the truth, the depth whereof was neuer more digged at, nor the profeſſion thereof euer more puſht at, now is the time both for old and young couragiouſly to ſanctifie <hi>The Lord in their hearts,</hi>
+               <note place="margin">1. Pet. 3.15.</note> 
+               <hi>being ready to ſatifie euery one that ſhall aſke a reaſon of their faith and hope that is in them.</hi>
+            </p>
+            <p>Queſt. <hi>What is the fift Incouragement?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> Comfort and ioy to all from the royall King that ſits on his throne to the loweſt ſubiect, to prince paſtor and people, as <hi>Salomon</hi> ſaith it did him.
+<note place="margin">Pro. 27.11.</note> 
+               <hi>My ſonne be wiſe and reioyce my heart, that I may anſwere him that reproacheth me:</hi> And ſurely if euer there was cauſe, now there is, for all, for Kings to commaund, and Miniſters to obey in inſtruc<g ref="char:EOLhyphen"/>ting their hearers, and for both to make glad the heart of their dread Soueraignes, by witneſſing of wiſdome, and anſwering the ſpitefull reproches of
+<pb n="7" facs="tcp:26779:6"/>all hereiques.</p>
+            <p>Which if euery man would but labour for a while, hope we ere long, that if our aduerſaries will but ſtand at our Church doores, they ſhall heare thoſe reſounding ecchocs from the mouthes of babes, that ſhall reioyce their nurcing father and leige king, the ſpirituall and naturall parents, and confound all falſe hereſies, which graunt O Lord Ieſus Amen.</p>
+            <p>Queſt. <hi>The profit of a thing doth not conſiſt in the bare matter, ſo much as in the fruitfull manner, and therefore ſince you haue ſpent ſo much paines on the matter of Catechiſing, doe no leſſe on the manner, will you be tractable to be encouraged to know the ſame how it is to be performed?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> Yes withall our hearts and ſtudies: for the manner God reſpects as well as the matter, and for defects in the manner doth reiect the matter, as in <hi>Caine,</hi>
+               <note place="margin">Gen. 4.5.</note> becauſe he had not reſpect to the manner of his ſacrifice to doe it well, God had no regard of him nor his oblation, he had no profit nor com<g ref="char:EOLhyphen"/>mendation.</p>
+            <p>Queſt. <hi>What then in a word is required in the come<g ref="char:EOLhyphen"/>ly manner of this goaly buſineſſe generally?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> As in receiuing the holy Sacraments, de<g ref="char:EOLhyphen"/>uout prayer vnto almighty God,
+<note place="margin">Ex. 19.7.10.</note> hearing his holy word, there is a time of premeditation, ſo in Cate<g ref="char:EOLhyphen"/>chiſing youth in the heads of Religion, there muſt be preperation.</p>
+            <p>Queſt. <hi>What duties are required in this preperation?</hi>
+            </p>
+            <pb n="8" facs="tcp:26779:7"/>
+            <p>
+               <hi>Anſ.</hi> The duties herein required are ſundry, but for memories ſake againe they ſhalbe reduced to three.</p>
+            <p>Queſt. <hi>Which be thoſe three?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> Firſt, duties that doe concerne your ſelfe and thoſe that are in place to teach vs. Secondly, duties that doe concerne our ſelues that are to be taught. Thirdly, duties that doe concerne our parents and gouernours, that are both to teach vs, and to be taught by you.</p>
+            <p>Queſt. <hi>What be the duties concerning my ſelfe that am to Catechiſe?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> They are diuerſe, as well as ours or our parents, but may fitly be drawne to three ſorts.</p>
+            <p>Queſt. <hi>Which be thoſe three?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> Firſt, duties before Catechiſing.</p>
+            <p>Secondly, duties at Catechiſing.</p>
+            <p>Thirdly, duties after Catechiſing.</p>
+            <p>Queſt. <hi>You haue anſwered plainly, ſo doe ſtill, and tell me what parts in me before we come to Catechiſing, will ſet your hearts on worke with courage to it?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> Two: Faculty, and Freewill.</p>
+            <p>Queſt. <hi>What is that Falculty?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> It is that ability and power to open the dores of entrance into the temple of Religion, faith and godlineſſe, both to old and young, rich and poore, for no man can enter himſelfe that can<g ref="char:EOLhyphen"/>not open the doore, ſo no man can teach that he doth not know, and as a Charriot man muſt haue skill to rule the charge committed to him, elſe he can neither do well nor it, ſo neither can they be without danger whoſe Charriot of their ſoules is
+<pb n="9" facs="tcp:26779:7"/>deſperately left to an ignorant paſtor, and Saint <hi>Paul</hi> tells <hi>Timothy, that a Biſhop muſt be apt to teach,</hi>
+               <note place="margin">1. Tim. 2.5.</note> that is, one that can prudently moderate his la<g ref="char:EOLhyphen"/>bours to the ſtirring vp and encouraging of his followers to the loue of labours.</p>
+            <p>Queſt. <hi>What meane you by free will, which you ſay will freely incourage you to be Catechiſed by me?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> A willingnes whereby you are godly well affected with all readineſſe to further our procee<g ref="char:EOLhyphen"/>dings and proficiency, deſirous to be loued of your anſwerers and auditors, applying your ſelfe to our greene age, poore powers, and ſlender capacitie, as our ſhepheard compaſſionate, firſt feeding vs the tender Lambes of Chriſts flocke,
+<note place="margin">Ioh. 21.15.</note> before the flocke of his ſheepe, not for any lucre and benefit of
+<note n="*" place="margin">Much was proffered in my Church before the King ſent forth his charge to do it freely.</note> hundred poundes, but for loue and bowells of Chriſt the chiefe ſheepheard of our ſoules, our fu<g ref="char:EOLhyphen"/>ture happineſſe, and your owne account of vs at the day of iudgement, neither for any diſreputation, ſome ſcorners ſhamefacedly forſakeiug vs baſhfull babes, but in an affable maner childiſhing with vs in the handleing of theſe things and holy exerci<g ref="char:EOLhyphen"/>ſes, counting all your grating toile ours, and your owne felicity in the middeſt of the furnace of your function,
+<note place="margin">Dan. 3.25.</note> as the Sonne of God and his Angell in the mideſt of the three faithfull Children walking and talking with vs.</p>
+            <p>Queſt. <hi>Set forward ſo ſtill, and tell me my duty at my Catechiſing to encourage you?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> Your office now is threefold,
+<list>
+                  <item>1. Matter.</item>
+                  <item>2. Meaſure.</item>
+                  <item>3. Method.</item>
+               </list>
+            </p>
+            <pb n="10" facs="tcp:26779:8"/>
+            <p>Queſt. <hi>What is the firſt?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi>
+               <note place="margin">Matter.</note> Firſt to communicate and deliuer whole<g ref="char:EOLhyphen"/>ſome doctrines and leſſons, to the true end that we may attaine precious wiſedome, and cheerefully profit ſomething in this open ſchoole of Chriſt Ie<g ref="char:EOLhyphen"/>ſus,
+<note place="margin">
+                  <hi>Our Church therefore doth confine vs to the Decalogue the Lords Prayer, and the Creede.</hi> Titus 1.9.</note> and then we all hope ſtedfaſtly in God (though through our weakneſſe we wot not how) that the learning and nurture of the Lord (as an army that is mighty and ſubtile) will inſinuate it ſelfe, and ſlip into our hearts and heads, and creep into our ſoules, and hold there as <hi>Paul</hi> to <hi>Titus, Hold faſt that faithfull word according to doctrine, that thou maieſt be able to exhort with wholeſom,</hi> (not with eloquence or nouelty) <hi>but with wholeſome doctrine.</hi> This firſt will encourage vs.</p>
+            <p>Queſt. <hi>What is my ſecond duty, that being done will encourage you to do your duties at Catechiſing?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi>
+               <note place="margin">Meaſure.</note> If you inſtill theſe wholeſome things by little and little (as we hope you will, and you ought to doe) and not burthen our childiſh witts with too much plenty (which will neither be pro<g ref="char:EOLhyphen"/>fitable to vs, nor pleaſant to you) this will make vs take good courage and ſtrengthen vs to come vnto you merily, as the prouerb is <hi>Feſtinalente,</hi> haſten ſlowly, for to ſay truly, haſt makes waſt, and veſ<g ref="char:EOLhyphen"/>ſells that haue narrow mouthes, receiue not the liquour haſtely powred ouer, yet if it be by little and little dropped in, they may in time be filled, as <hi>Iob</hi> ſaith that <hi>Water with ſmall drops will breake ſtones,</hi> ſo may your inſtructions by degrees and ſoft ſteps get into our hearts more kindly then breake in by oppreſſion, this meaſure is the ſecond incou<g ref="char:EOLhyphen"/>ragement.</p>
+            <pb n="11" facs="tcp:26779:8"/>
+            <p>Queſt. <hi>What third encouragement deſire you at the exerciſe of Catechiſing?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> It will harten vs to waite vpon your words,
+<note place="margin">Methods.</note> if they haue not only full weight, but you ſet them in faire order, as the Apoſtle proſcribes,
+<note place="margin">2. Cor. 14.</note> that all things ſhould be done in order, for words without methode giue ſound without vnderſtanding,
+<note place="margin">Oratio dat ſiue mente ſonum. Eſa. 5.17.</note> and the prophet holy and eloquent, ſaith that the Lambes ſhall feed, but it muſt be by good order &amp; maner, for this is the mother of all learning in all ſchooles, and this will laſtly encourage vs at Cate<g ref="char:EOLhyphen"/>chiſing in Chriſts ſchoole.</p>
+            <p>Queſt. <hi>You haue anſwerea me, you haue truly told me what you ought to deſire at my bands in the time of this exerciſe, but what haue I nothing to doe afterward to encourage you?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> Two things if it pleaſe you: the one is the eye office, the other the eare, as thoſe two are commonly the greateſt encouragement, or diſ<g ref="char:EOLhyphen"/>couragement, eſpecially in our teachers.</p>
+            <p>Queſt. <hi>Which way may I encourage you with mine eies?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> By lookeing after vs, and watching ouer vs, driuing farre from vs any euill thing, that may hinder vs from the bleſſing and benefit of your la<g ref="char:EOLhyphen"/>bours, as corrupt company, which would poyſon vs with corrupt learning and life, like bleared eyes that will make our eyes as blinde and as ſore as themſelues; and by ſeeing that our conſorts may make vs more and more apt, better mannered, bet<g ref="char:EOLhyphen"/>ter learned, and this is the firſt and apteſt maner to
+<pb n="12" facs="tcp:26779:9"/>moue and encourage vs to learning after Catechi<g ref="char:EOLhyphen"/>ſing.</p>
+            <p>Queſt. <hi>Which way may I encourage you by my eares?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> By liſtning to our language whether it be of Canaan or no, to our wordes whether they be of one ſweet fountaine or no,
+<note place="margin">I am. 3.</note> not wordes full of ſauor in the Church alone,
+<note place="margin">Eph. 5.</note> gracious admini<g ref="char:EOLhyphen"/>ſtring good content to our parents and all good people, with your ſelfe in the Church, but ſuch abroad as the eares of God himſelfe, doth like and long for of theſe encouragements, we ſhalbe glad both before, at, and after Catechiſing.</p>
+            <p>Queſt. <hi>As you haue told me ſoberly, that like Saint</hi> Peters <hi>cocke,</hi>
+               <note place="margin">Mat. 27.</note> 
+               <hi>I muſt firſt clap and beate mine owne ſide before I ſing to you, now like little chickens let me heare you lift vp your voices to tell me your owne, and what is to be done on your ſide, what rules were good for you to haue before your eies to encourage your hearts?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> We are to haue in minde the ſame order<g ref="char:EOLhyphen"/>ly with your ſelfe, before, at, and after Catechiſing.</p>
+            <p>Queſt. <hi>What are the rules before Catechiſing?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> Two, firſt, good mindes muſt be to it, ſe<g ref="char:EOLhyphen"/>condly, the beſt meanes muſt be vſed.</p>
+            <p>Queſt. <hi>What ſpirit muſt you be of, and how muſt you be minded?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> We muſt girt vp our mindes fit for labour, and one time after another reuiue our ſpirits when they are let downe, for as it is loſt labour for a wa<g ref="char:EOLhyphen"/>terbearer to powre it out of his tanckard into a ciſ<g ref="char:EOLhyphen"/>terne that is deftled, or that will not hold, ſo is it for a Miniſter to put the Law of God into the minde of them that are or will not be docible, nei<g ref="char:EOLhyphen"/>ther
+<pb n="13" facs="tcp:26779:9"/>the father nor the ſonne can well reioyce,
+<note place="margin">Luk. 11.</note> if when the father ſhall offer him bread, he will not ſo much as reach out his hand, he deſerues to ſtarue, that will not open his head, ſo thoſe that will not be ready, but make light of the bread of their ſoules, and the bread of the Sabbath, if they ſhould want a peece of bread it were no pitty, what good will your maſters do you, oh you excuſefull ſeruants about your maſters buſineſſe, when the Lord of your maſters ſhall require theſe things at the day of your ſoules account? the wheele we hope ſhalbe turned, and you like ſpokes in the ſame ſhall beare ſome part of the burthen, to encourage vs poore children.</p>
+            <p>Queſt. <hi>What is the ſecond braunch of encouragement before the tree of knowledge of God?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> Meanes that we can vſe in writing, that which you haue written and deliuered, both for vs and our friends, and their families this maketh vs to heare and hand your directions, and ſhun no labour to learne; Our reioycing therefore afore<g ref="char:EOLhyphen"/>hand to ſtoop like children weakely to the grounds of Religion, is that we are able to write them with our fingers for our learning, though inperfectly.</p>
+            <p>Queſt. <hi>What morſells or draughts are thoſe that will comfort you at Catechiſing?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> Two:
+<note place="margin">Heb. 2.2.</note> The firſt to eate ſauourly the coun<g ref="char:EOLhyphen"/>ſell, and receiue attentiuely your commaunde<g ref="char:EOLhyphen"/>ments reuerently, with all paines that we are fit for markeing the places that you preſſe to vs, &amp; knead vpon vs in this holy place, that we may deliuer and draw againe that we receiue from you: that you
+<pb n="14" facs="tcp:26779:10"/>may as the conduit, and we as the pipes, runne into our parents, as the veſſels and tanckards, theſe wa<g ref="char:EOLhyphen"/>ters that muſt be diuided amongſt vs at home.</p>
+            <p>Queſte <hi>What is the ſecond comfortable morſell at the time of Catechiſing?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> The ſecond encouragement it is, that this Catechiſing is but a little breake faſt in the mor<g ref="char:EOLhyphen"/>ning of childhood and youth, and we hope for a feaſt and dinner to ſtrengthen and ſettle vs in the age of Manhood, and to be ſatisfied with our Ma<g ref="char:EOLhyphen"/>ſter Ieſus Chriſt at Supper: for why ſhould not the light of the Goſpell, that in this exerciſe dawneth vpon vs, make vs to looke vp to higher purpoſes, and expect fairer points, and to truſt that after theſe groues and purleyes of low ſhrubbes with<g ref="char:EOLhyphen"/>out the pales, we meane theſe queſtions of primer<g ref="char:EOLhyphen"/>lie beginners, we ſhall come to walke among and to clime vpon the Cedars of Lebanon the moun<g ref="char:EOLhyphen"/>taine, one day being able to aske queſtions, as well as now to anſwere.</p>
+            <p>Queſt. <hi>What branches of encouragement grow be<g ref="char:EOLhyphen"/>hind this tree of the knowledge of God?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> Two branches ſpring out after Catechi<g ref="char:EOLhyphen"/>ſing.</p>
+            <p>Queſt. <hi>Which is the firſt?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> The firſt branch after our Catechifing that comforts vs is grafted in our memory, for this har<g ref="char:EOLhyphen"/>tens vs, that our heades through delight in this holy exerciſe,
+<note place="margin">Heb. 2.</note> do not let ſlip that you haue taught vs, for this remembrance is the mother of the muſes in our ſchooles, and more in the houſe of God, nothing breedeth knowledge more in religi<g ref="char:EOLhyphen"/>on,
+<pb n="15" facs="tcp:26779:10"/>then heed taking, that thoſe things that we haue heard as out of cract veſſels run not out, yea further, though the morning of our childhood lets many a drop of this heauenly dew to ſweat and bleed through, yea we hope that as the Sunne in his Tabernacle, that riſeth and runneth ouer vs, and ſets downe vpon vs, doth tan our tender skins, ſo continuance of ſitting in this Sunne of Gods holy Tabernacle, will leaue a Chriſtian colour of godlines vpon vs, this is the firſt comfort after Ca<g ref="char:EOLhyphen"/>techiſing.</p>
+            <p>Queſt. <hi>What is the ſecond comfortable branch after Catecheſing?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> Then the gift of God to take pleaſure in that we remember in this and the like exerciſes of godlines, to thinke willingly our ſelues moſt hap<g ref="char:EOLhyphen"/>py to haue our wits exerciſed, and ſeaſoned with this heauenly liquour, and filled with this ripe treaſure, ſo to ſhunne pleaſures that are noyſome, and therefore to delight in reading, hearing, me<g ref="char:EOLhyphen"/>detating, and conferring of the ſame, which for in<g ref="char:EOLhyphen"/>ſtruction will make vs the apter, but for ſwearing, lying, or idleneſſe, to eſchew them as ſerpents, which will make our thoughts to fal fooliſhly from theſe things, as if they were toyleſome.</p>
+            <p>Queſt. <hi>As you haue ſhewed me what milke out of my breſts will encourage, and battle you in the firſt place, ſecondly, as your mouthes haue ſatisfied my ſoule with the good things that concerne your ſelues; ſo the next thing is to know what bleſsings your fathers, and mo<g ref="char:EOLhyphen"/>thers haue in keeping for you, if you do this duty man<g ref="char:EOLhyphen"/>fully, if you be the ſonnes of wiſe parents, they will fur<g ref="char:EOLhyphen"/>ther
+<pb n="16" facs="tcp:26779:11"/>you in proceeding on the wiſedome of God very much; for looke how much ioy they hope to reape in the harueſt of their fulneſſe of daies, from you there young ſeed, ſo much ſeed of grace and godlines muſt they ſet in the beds of your childhood, as you haue told me your du<g ref="char:EOLhyphen"/>ty to them, ſo what will you aske or chuſe of them?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> Not to leaue vs riches, if they may, not to lend vs righteouſnes, if they could, not to get vs for honour, or honour for vs, when neither we, nor that ſhall long abide, not to make vs their deer<g ref="char:EOLhyphen"/>lings in worldly pleaſures,
+<note place="margin">1. King. 2.9.</note> but as <hi>Salomon</hi> gardens full of the flowers of wiſdome, and grace of God to regard vs.</p>
+            <p>Queſt. <hi>What bleſsings then do you namely deſire of them?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> As in you and our ſelues the ſame order did comfort vs, ſo in them both before, at, and af<g ref="char:EOLhyphen"/>ter Catechiſing.</p>
+            <p>Queſt. <hi>What duties will comfort you from your pa<g ref="char:EOLhyphen"/>rents, like Gardeners and you the gardens?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> Three, firſt, to ſee vs ſowne with good ſeed, when we haue beene dreſſed like a garden. Second<g ref="char:EOLhyphen"/>ly, to blow vpon vs, as the South wind vpon the Roſe bud, and water vs like wells, when we are in ſowing and dreſſing. Thirdly, to locke vs vp well from the browſing and bruſing of beaſts, and picking of birds, afterwards we meane to looke to vs carefully after Catechiſing.</p>
+            <p>Queſt. <hi>But are they obliged to graunt and to ſtand to theſe duties?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> Both of them are bound to ſtand to them by a double law. Firſt, of nature. Secondly, of God:
+<pb n="17" facs="tcp:26779:11"/>Nature binds them, whenc comforts deſcend to vs from the god of nature, hauing made ſuch a well of natureall affection in the garden of nature, that waters all the plants, and children therein to be be<g ref="char:EOLhyphen"/>loued intirely; a liuing and running ſtreame to prouide for vs carefully, an inbred care to cheriſh vs from our conception tenderly, till we be made able to ſhift for our ſelu<g ref="char:cmbAbbrStroke">̄</g>es by God our father al<g ref="char:EOLhyphen"/>mighty.</p>
+            <p>Queſt. <hi>But how doth the Law of God bind them?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> Our bended knees ſhall doe their humble duty to them, and our preuaileing tongues ſhall cheerfully aske of them, whether they can find in their indulgent hearts to doe otherwiſe or vndoe vs,
+<note place="margin">Eſay. 49.</note> the Prophet therefore as a ſpirituall parent makes it a ſtrang queſtion, ſaying, <hi>Can a woman</hi> (if ſhe be not worſe then a very beaſt) can ſhe <hi>forget her child,</hi> or a mother (except ſhe be worſe then a ve<g ref="char:EOLhyphen"/>ry Tygre) can ſhe not haue compaſſion on the ſonne of her wombe?
+<note place="margin">Luk. 11.9.</note> So the bowells of all com<g ref="char:EOLhyphen"/>paſſion, our Sauiour, his heart earnes towards vs, when he tells vs what our parts are in three tearmes paſt: that a ſonne muſt aske, Firſt, before ſuch food as this be ſet him. Secondly, he muſt ſeeke at Ca<g ref="char:EOLhyphen"/>techiſing. Thirdly, he muſt knocke after at the doores of his fathers eares and heart: Secondy, he ſpecifieth our parents duties in anſwerable points, demaunding for anſwere to the firſt, whether any father will not giue his ſonne bread, &amp; not a ſtone, before this: Secondly, if at this feaſt he aske a fiſh, will he giue him a ſerpent: Thirdly, if the ſonne knocke againe, whether the father inſteede of an
+<pb n="18" facs="tcp:26779:12"/>egge, will giue him not a ſhell, but a ſcorpion? as if he ſhould ſay, no father that hath but the bowells of nature in him, but he will put good meate into the mouth of his child, ſo now no god<g ref="char:EOLhyphen"/>ly father but will put wholeſome things into the heart of his ſon. This therefore doth encourage vs that we hope, looke how many fathers we haue, ſo many <hi>Iacobs</hi> we haue, that will tenderly loue vs, be<g ref="char:EOLhyphen"/>ing ſo many obedient <hi>Ioſephs,</hi>
+               <note place="margin">Gen. 37.34.</note> and little <hi>Beniamins,</hi> and looke how many mothers, true ones to vs, ſo many louing, affected grieuouſly, that their eyes ſhould be open to ſee their poore childrens ſoules cut a ſunder,
+<note place="margin">1. Kin. 4.</note> but as much reioycing to keepe them ſafe from the murtherous ſword, that is in the mouth of the harlot, and the falſe mother.</p>
+            <p>Queſt. <hi>Now you haue ſummed out their affections, let vs caſt ouer the perticular effects of thoſe affections, and firſt before Catechiſing?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> They are not ſo few as that a child can tell them; yet more then there be good fathers and mothers, but as the parents are two, ſo ſhall their parts be both before, at, and after Catechiſing.</p>
+            <p>Queſt. <hi>What is the firſt before Catechiſing?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> Firſt we anſwere, that as before we could either aske of them, or anſwere what they asked, before we knew theſe hands one from another, they performed Chriſtian parts in ſuffering vs lit<g ref="char:EOLhyphen"/>tle infants,
+<note place="margin">Mat. 19.14.</note> not able to come, no: but in bringing vs to Chriſt, ſo that as the kingdome of God be<g ref="char:EOLhyphen"/>longs to vs, ſo we to it, by being deliuered into the armes of Chriſts mercy at the Baptiſtery, ſo now as they promiſed before at Baptiſme and vowed
+<pb n="19" facs="tcp:26779:12"/>they would, they will looke that we can ſay vnder<g ref="char:EOLhyphen"/>ſtandingly in our mother tongue, the ten Com<g ref="char:EOLhyphen"/>maundements, the Lords prayer, and the holy Apoſtles Creede, ſo as from them we may be taught whatſoeuer is neceſſary for a Chriſtian to know to his ſaluation. But this (we hartely thanke them) they haue done, and this is the firſt incou<g ref="char:EOLhyphen"/>ragement.</p>
+            <p>Queſt. <hi>What is the ſecond thing that the louing pa<g ref="char:EOLhyphen"/>rents haue done to you before hand, to giue you courage to this holy exerciſe?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> It is the firſt encouragement that Baptiſme of water, wherin they put vpo<g ref="char:cmbAbbrStroke">̄</g> vs the white &amp; pure garment of Chriſt to couer vs, but it doth ſecond<g ref="char:EOLhyphen"/>ly encourage vs, that as we grow in yeares and ſta<g ref="char:EOLhyphen"/>ture, they prouid the warm garments of education, and not onely fit our bodies with clothes that are long and large enough for vs, but their deſire is to fill our ſoules with fit meate for vs, and therefore we haue beene led and carried to godly ſchooles before we could goe our ſelues, and ſent to ſuch houſes where we haue learned to reade and write, and ſo they haue ſpent their mony, and we the monthes of our youth, in taſting the principles of Religion,
+<note place="margin">Heb. 5.12.</note> that now when they haue ſent vs to Church, we are able to drinke vp the precepts of piety:
+<note place="margin">1. Tim. 4.5.</note> ſo that our parents being like <hi>Timothies Grandmother Lois, and his mother Eunice,</hi>
+               <note place="margin">2. Tim. 3.15.</note> inſtructing vs before hand, we are encouraged (we thanke them) to this holy exerciſe.</p>
+            <p>Queſt. <hi>Whereas you haue ſhewed me what ſeedes of encouragement you haue receiued already from your pa<g ref="char:EOLhyphen"/>rents,
+<pb n="20" facs="tcp:26779:13"/>ſo now tell me when Chriſt is come downe into you, as into his garden bedds, what things do encourage you now?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> As in a garden, water and wind will make ſeeds and nuts to grow and flouriſh,
+<note place="margin">Cant. 6.</note> if they be ſea<g ref="char:EOLhyphen"/>ſonable and ſoft, and Southernly, ſo in our hearts, ſo will the prayers and prayſes of our parents,
+<note place="margin">Can. 4.</note> lou<g ref="char:EOLhyphen"/>ingly blowing vpon vs, will make vs ſpring and ſpread beautifully; and therefore we pray them now to ſanctifie vs vnto God at this holy exerciſe, and as euer they deſired to be deliuered of vs out of the vault of the darke wombe, ſo deſire now that we be conceiued from aboue,
+<note place="margin">Ioh. 3.5.</note> and borne a<g ref="char:EOLhyphen"/>gaine of water and the holy Ghoſt, that we may be deliuered in our hearts, from that which they na<g ref="char:EOLhyphen"/>turally, and the diuell maliciouſly hath put into vs in the firſt garden:
+<note place="margin">Ioel. 2.16.</note> ſo the Prophet did ſanctifie the children, as well as the Congregation, and ſo did <hi>Hannah</hi> conſecrate her ſon to the Lord,
+<note place="margin">1. Sam. 2.</note> eſteeming him better as the child of God, then her owne, his prepared for life, hers for death.</p>
+            <p>Queſt. <hi>What is the ſecond thing that doth encourage you at the time of this worke from your parents?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> The ſecond is the South winde, of ſoun<g ref="char:EOLhyphen"/>ding ſtill ſecret prayſes to almighty God, blowing on the buds of goodneſſe and grace, that they ſee ſhoot from vs, as ſignes of the ſummer of ripe and good fruite hereafter, not hauing ſtincking breath, from corrupt lungs and rotten teeth, as the old phariſes, murmuring, and grateing their teeth a<g ref="char:EOLhyphen"/>gainſt the Lord and his diſciples,
+<note place="margin">Luk. 19.39.</note> ſaying, Maſter, rebuke thy diſciples, when they deſerue to be re<g ref="char:EOLhyphen"/>ioyced
+<pb n="21" facs="tcp:26779:13"/>at, nor as the ſurley and the ſawcy Scribes,
+<note place="margin">Mat. 21.15.</note> when they ſaw his marueilous workes, and heard his gratious wordes, ſuch as neuer man ſpake,
+<note place="margin">Ioh. 7.</note> yet they ſend officers to apprehend him, and for the childre<g ref="char:cmbAbbrStroke">̄</g> that cryed in the Temple, <hi>Hoſanna to the ſon of Dauid,</hi> diſdaine at it, as if it were but boyes play: ſo did they, and what is this that many amongſt vs doe? cauil and carpe in euery company, they come in, contemne the Congregation, cenſure the Cate<g ref="char:EOLhyphen"/>chiſing, and charging the Catechiſer either of tediouſnes, or of hardnes, or of confuſednes, or elſe odiouſly preſuming to compare what one doth, with what another Miniſter doth, if they cannot deny but it is good, yet mince, it is not ſo good as ſuch a ones, and in my mind ſuch a courſe were more commodious, when none will content them that are ſo combuſtuous, but theſe are ſleights of the deuill to diſcourage the Miniſters, to diſcomfort the Congregation, to chill the new kindled courage of the children, to diſhonour the ordinance of God, whiles the deuill doth leade them out by the elbowes, from likeing any thing that is good, but we hope our parents, while we are ſetting forth the prayſes of Ieſus Chriſt with our mouthes, will not haue ſtony heart, but ſpread the boughes in the way, and caſt the garments of gratitude and honour in the pathes of his ordi<g ref="char:EOLhyphen"/>nance for the ſame.</p>
+            <p>Queſt. <hi>What is the locke of this garden,</hi>
+               <note place="margin">Can. 4.</note> 
+               <hi>to keepe you and that is implouted in you, in this exerciſe, and what bleſsings do you deſire of your parents after Catechiſing?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> We haue two priuate domeſticall petiti<g ref="char:EOLhyphen"/>ons,
+<pb n="22" facs="tcp:26779:14"/>to put into their hands at home, yet as chil<g ref="char:EOLhyphen"/>dren haue a priuiledge, we may tell the truth in publike; let not our parents be angry if we ſpeake to them here for our encouragement to be domeſ<g ref="char:EOLhyphen"/>ticall ſchoolmaſters, at home examining vs ouer and ouer what we haue learned at Church, and as they haue faculty more plentifully, as our heauenly Father commaunds that they ſhould <hi>whet them continually vpon their children,</hi>
+               <note place="margin">Deut. 6.6.7.8.9.10.11.12</note> 
+               <hi>and bind them as front<g ref="char:EOLhyphen"/>lets</hi> (or ſignes of remembrance) <hi>and write them vp<g ref="char:EOLhyphen"/>on the poſtes of their doores,</hi> and if they ſhall ſet them vp vpon the dry and dead poſtes of their houſes, or elſe one poſt will cry out to another for iudgement for neglect of Gods commaundement, how then ſhall we their ſuruiuing poſterity periſhing, how loud ſhall our bloud cry for iudgement againſt our parents?
+<note place="margin">1. Kin. 20.31</note> and therefore if the ſeruants of <hi>Benhadad</hi> can ſlay the Kings of Iſrael are mercifull, if the ad<g ref="char:EOLhyphen"/>uerſaries can, we may much more, that our grati<g ref="char:EOLhyphen"/>ous King of England is mercifull to the little peo<g ref="char:EOLhyphen"/>ple in his kingdome, and we doubt not but that the Lord tooke of that ſpirit which was vpon King <hi>Dauid,</hi>
+               <note place="margin">Num. 11.25.29.</note> and put it on our King, when he in Pſal. 34.11. Calls and ſayes, <hi>Come little children hearken vnto me, I will teach you the feare</hi> (that is the true Religi<g ref="char:EOLhyphen"/>on) <hi>of the Lord,</hi> the Lord take of the ſame ſpirit and giue it to the threeſcore and ten Elders, we meane the Miniſters of his word, and the Ma<g ref="char:EOLhyphen"/>ſters of the families of this populous kingdome, that as we are (as <hi>Salomon</hi> ſaith of himſelfe) the ſonnes of our fathers (their derlings) and tender<g ref="char:EOLhyphen"/>ly beloued of our mothers,
+<note place="margin">Pro. 4.4.</note> ſo the fruite may be
+<pb n="23" facs="tcp:26779:14"/>ſeene by being inſtructed by them, and locking our hearts to hold faſt Gods word, and to keepe our Kings commaundements, that ſo we may liue, liue here religiouſly, liue with the King of Kings here<g ref="char:EOLhyphen"/>after eternally.</p>
+            <p>Queſt. <hi>What is your ſecond petition, wherein you do conclude all you are able to craue at their hands?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> The laſt is this, that though we be not all one mens ſonnes, nor all of one degree and birth, nor of letter and ſhape, nor all of one ſtature of bo<g ref="char:EOLhyphen"/>dy, nor of one nature, diſpoſition, and faculty of ſoule, yet from the honourableſt to the meaneſt that is a child, from the beautifulleſt to the home<g ref="char:EOLhyphen"/>lieſt that hath a father, from the ſtrongeſt to the weakeſt that is borne of a mother, that they would (God to helpe) conſecrate vs to the beſt ſeruice and worſhip of God in this life that we are fit for, not regarding bloud, beauty, or bignes, to our hinder<g ref="char:EOLhyphen"/>ance in the holieſt things, for if the ſeminaries of hereſie doe giue ſuch encouragement, and their blinded kings do as <hi>Nebuchadnezar</hi> did,
+<note place="margin">Dan. 1.3.</note> firſt ſpeake to their Eunuches to pricke &amp; chuſe of the childre<g ref="char:cmbAbbrStroke">̄</g> of Iſrael of the kings ſeed, and of the Princes.</p>
+            <p>Secondly, children in whom was no blemiſh but well fauoured. Thirdly, ripe witted, inſtruct in all wiſedome and well ſeene in knowledge. Fourthly, ſtrong and without in firmitly in body, or without impediment in ſpeech, able to vtter knowledge, and ſuch as were able to ſtand in the kings palace, if they that are the princes &amp; Eunuches of Babell be ſo laborious, ſo liberall to prouide euery day ſuch children for their king, and ſuch portions of
+<pb n="24" facs="tcp:26779:15"/>the kings meate, for the children they corrept and corrupt, to the end they may ſtand, and inſtruct their kings to cary them to hell and deſtruction, then how much more ſhould our ſpirituall and na<g ref="char:EOLhyphen"/>turall parents of Ieruſalem, of what degree or dignity ſoeuer enourage vs in the true way to God and ſaluation? and when they haue ſeene at our Catechiſing any hope of profit, or veine of godlineſſe and virtue in our faces, they would thereafter let their hearts and hands goe as Gods doe,
+<note place="margin">Pro. 20.11.</note> for as <hi>Salomon</hi> ſaith, <hi>A child is knowne by his ſtudies,</hi>
+               <note place="margin">Syra. 33.</note> 
+               <hi>whether his workes be pure or right,</hi> hope<g ref="char:EOLhyphen"/>full or noe, fit for our calling if not for another, though not as <hi>Samuell</hi> did, yet growing a little in fauour and credit both with God and men, with theſe on earth,
+<note place="margin">Tranſition.</note> and him in heauen. So be it. Amen.</p>
+            <p>Queſt. <hi>Turne your hearts now from the matter of encouragement in Catechiſing it ſelfe, and from the man<g ref="char:EOLhyphen"/>ner of it either in the Miniſter or your ſelues, or your parents, turne your hearts from theſe two, and tell me the third meanes of hartning you from the meanes we all haue by Gods bleſſing?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi>
+               <note place="margin">2. Cor. 6.</note> The meanes to make our hearts large with comfort to vs all, is very large, and the waies ma<g ref="char:EOLhyphen"/>ny, but that we may goe downe from the Temple with the ſame comfortable ſtepps numberly that we came vp, the meanes we finde is threefold, Be<g ref="char:EOLhyphen"/>fore, At, and After.</p>
+            <p>Queſt. <hi>What are the meanes?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> 1. Temples our harts are. 2. Temples our bo<g ref="char:EOLhyphen"/>dies are in. 3. Temples that they ſhalbe in hereafter.</p>
+            <p>Qu. <hi>Before we come, what are the temples of courage.</hi>
+            </p>
+            <pb n="24" facs="tcp:26779:15"/>
+            <p>
+               <hi>Anſ.</hi> Three, Firſt, Ieſus Chriſt our head is a Temple of comfort to vs, the holieſt of holieſt to our hearts, Eph. 2.20.21. <hi>Ieſus Chriſt himſelfe being the head corner ſtone, in whom all the building being coupled together, groweth vnto an holy Temple to the Lord.</hi> For if it were a comfort to good <hi>Ioſeph,</hi>
+               <note place="margin">Luk. 2.16.</note> and the bleſſed Virgin <hi>Mary,</hi> to find him in the Temple after three daies ſeeking him, when he was but twelue yeares old, and when the Temple of his bo<g ref="char:EOLhyphen"/>dy was to be deſtroyed,
+<note place="margin">Ioel. 2.</note> behold a thouſand times more encouragement it is to vs, to ſeeke him in the Temple of glory that neuer periſheth, whether we are taught he is raiſed and aſcended, and where are we to learne to worſhip God through him.</p>
+            <p>Que. <hi>Which is the</hi> 2. <hi>part of this ſpirituall Temple?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> The Foundation of this holy Temple of comfort to vs is twofold,
+<list>
+                  <item>1. Principall.</item>
+                  <item>2. Subordinate.</item>
+               </list>
+            </p>
+            <p>Que. <hi>What is the principall Foundation of courage?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> The Foundation principall is the Scrip<g ref="char:EOLhyphen"/>ture, the holy Prophets and Apoſtles, as Saint <hi>Paul</hi> to the Epheſians 2.20. <hi>Ye are built vp on the founda<g ref="char:EOLhyphen"/>tion of the Apoſtes and Prophets,</hi> and this no ſmall comfort that we haue ſo ſure a foundation that cannot be ſhaken.</p>
+            <p>Queſt. <hi>What is the ſubordinate foundation of this Temple of courage to this exerciſe?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> Though we haue not ſo many Prophets as the Church of Iſrael had, nor ſo many holy A<g ref="char:EOLhyphen"/>poſtles as the Primitiue Church had to comfort vs, yet our Fathers are the Fathers of more propheti<g ref="char:EOLhyphen"/>call ſonnes and apoſtolates then they were, and our
+<pb n="26" facs="tcp:26779:16"/>Church the Mother of more reuerend Doctors,
+<note place="margin">Luk. 2.</note> then the Church of Ieruſalem, to teach vs the way vnto life eternall; and this though ſubordinate is no ſmall encouragement.</p>
+            <p>Queſt. <hi>What is the third Temple of encouragement that we are to our owne hearts?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> Not onely Chriſt our corner ſtone doth comfort vs, but the Church, though in a leſſe mea<g ref="char:EOLhyphen"/>ſure, and not onely our flouriſhing Church, but euen euery Chriſtian in the Church, which is fuller of Temples of the holy Ghoſt, then flouriſhing Corinth, for we hope our Preachers may ſpeake to more then S. <hi>Paul</hi> then could there, <hi>Know you not that your bodies are the Temples of God,</hi>
+               <note place="margin">1. Cor. 16.17</note> 
+               <hi>&amp; not only Tem<g ref="char:EOLhyphen"/>ples but holy; For the Temple of God is holy, which ye are.</hi> Hauing therefore a head or corner ſtone of ſo fine gold as Chriſt, a foundation of ſuch pure ſiluer that hath beene ſeuen and ſeuen times tried in the fire, we receiue the golden cordialls of courage from them both to this holy exerciſe, that euer we were borne to be Temples built of the ſame Temples.</p>
+            <p>Queſt. <hi>What is the ſecond generall meanes of encou<g ref="char:EOLhyphen"/>ragement at Catechiſing?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> The Temple we are in, which is either for the matter of it, or the manner, either the out<g ref="char:EOLhyphen"/>ward, or the inward parts of it comfortable</p>
+            <p>Que. <hi>What comfort is there for this fro<g ref="char:cmbAbbrStroke">̄</g> the Temple?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> The ſacred Churches wherein we meete together in due ſort (let God haue his due prayſe for it) to heare and learne the grounds of Religi<g ref="char:EOLhyphen"/>on, if they were but few &amp; ſtraight and poore bou<g ref="char:EOLhyphen"/>ſes, yet might they be ſome courage to vs, but they
+<pb n="27" facs="tcp:26779:16"/>are many, large and beautified, the many Cathedr<g ref="char:EOLhyphen"/>all Churches ordained to ſpread religion, and the goodly Colledges annexed to both, both for en<g ref="char:EOLhyphen"/>larging of learning in Church &amp; Co<g ref="char:cmbAbbrStroke">̄</g>mon-wealth, what largeneſſe of comfort doe theſe beſtow vpon vs? beſides the vulgar ſchooles where many poore boies and girles poore orphanes doe learne theſe foundations of religion, theſe do ſpurre vs forward to this learning of Catechiſing, leſt the Churches that we are in, at the laſt day ſhould condemne vs, when they ſhalbe conſumed with fire for our neg<g ref="char:EOLhyphen"/>ligence in the ſame.</p>
+            <p>Secondly, for the manners in the Church, ſuch conſociation and concord of Miniſters of the Church in the exerciſe of godlines; ſuch rules and Lawes both for Paſtor and people in, and, of the Church, ſuch variety of exerciſes in the Church af<g ref="char:EOLhyphen"/>ter the neceſſitie of ſorts and degrees, whom would they not moue either to gouerne, or to be gouer<g ref="char:EOLhyphen"/>ned to Catechiſe or to be Catechiſed? away there<g ref="char:EOLhyphen"/>fore withall thoſe ſpirits that either if they be able will deſtroy the matter or the maner of this Tem<g ref="char:EOLhyphen"/>ple we are in, ſuch as depopulate Townes, and diſ<g ref="char:EOLhyphen"/>figure Churches, or any waies ſteeple the beauty of the Temple we are in, or the rule &amp; gouernment of the Church we are of, that as ſoone as they be looſe, flie vpon the throate of the Church, it is a ſhame, it is a ſhame, that any ſuch ſhould be ſuffered to the great diſcouragement of the weake, but be<g ref="char:EOLhyphen"/>cauſe this is not a thing that is vpholden in our charges, let it paſſe, and let vs take courage from our Temples, as <hi>Adam</hi> did in Paradiſe in innocency,
+<pb n="28" facs="tcp:26779:17"/>more then the Iſraelites in the Tabernacle, or the Iewes in their Temple, and this muſt be by keepe<g ref="char:EOLhyphen"/>ing them religiouſly, &amp; vſeing them reuerently, &amp; receiueing inſtructions attentiuely.</p>
+            <p>Qu. <hi>What is the Temple that we ſhalbe of, which vs Temples in the Temples we are in, doth ſo encourage?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> This is as far beyond and aboue all other Temples of encouragement, as heauen is aboue the earth, the Celeſtcall Temple this is, a Tempole ſo high, ſo great, ſo holy, ſo pretious, ſo cleane, ſo walled, ſo dored, ſo gated, ſo windowed, ſo ſcitu<g ref="char:EOLhyphen"/>ated, ſo founded, ſo ſquared, ſo long, ſo broad, ſo garniſhed, ſo allyed, ſo full of all theſe, that <hi>Iohns</hi> eyes could not ſee it,
+<note place="margin">Reu. 21.11.</note> for the Lord God Almighty, and the Lambe are the Temple, this is our laſt, our beſt comfort that we hope our poore deſires of our hearts, our ecchoes of our mouthes ſhall not like lead and earth deſcend downwards, but ſhall be heard in that Temple, whether we hope for our encouragement, the exorable clemency of God will bring vs his poore Temples, that when our dead bodies ſhall deſcend into our graues in theſe materiall Temples, our ſoules ſhall before aſcend into that Temple ſo glorious, that it cannot be cal<g ref="char:EOLhyphen"/>led a Temple, whether the head of both Temples, Ieſus Chriſt bring both our bodies and ſoules at the day, when he ſhall iudge vs, to whom be all honour, and glory, both in the Temples of heauen and earth, for euer. <hi>Amen.</hi>
+            </p>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:26779:17"/>
+         </div>
+      </body>
+   </text>
+</TEI>
